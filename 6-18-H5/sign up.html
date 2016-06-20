@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sign up</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sign up.css"/>
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientW/20+"px";
+		</script>
+	<body>
+		<header>
+			<img src="img/guanbi.jpg" class="img-l"/>
+			<div class="title">Sign up</div>
+		</header>
+		<section>
+			<div class="touxiang-box">
+				<div class="tianjia">+</div>
+				<img src="img/avatar.jpg" class="touxiang"/>				
+			</div>
+			<form >
+				<div class="u-t">FULL NAME</div>
+				<input type="text" id="u-text" value="" placeholder="请输入用户名" required min="5" max="10"/><!--Andrea Pierce-->
+				<div class="EMAIL">Email</div>
+				<input type="email" id="u-email" value="" placeholder="请输入邮箱" required/><!--andrea@invisionapp.com-->
+				<div class="p-t">PASSWORD</div>
+				<input type="password" id="u-password" value=""  placeholder="请输入密码" required/>
+				<div class="b-t">BIRTHDAY</div>
+				<input type="date" id="u-date" value="" placeholder="请输入日期" required/><!--May 15,1984-->
+				<input type="submit" id="u-submit" value="Create"/>
+			</form>
+		</section>
+		<footer><span class="f-l">DON’T HAVE AN ACCOUNT?</span>&nbsp;<span class="f-r">SIGN UP</span></footer>
+		<script type="text/javascript">
+			
+			var oSubmit=document.getElementById("u-submit");
+			var oinput=document.getElementsByTagName("input");
+			oSubmit.onclick=function(e){
+				
+				var oText=document.getElementById("u-text");
+				var oEmail=document.getElementById("u-email");
+				var oPassword=document.getElementById("u-password");
+				var oDate=document.getElementById("u-date");
+				var otext=oText.value;
+				var oemail=oEmail.value;
+				var opassword=oPassword.value;
+				var odate=oDate.value;
+				var ucon=JSON.stringify({"oText":otext,"oEmail":oemail,"oPassword":opassword,"oDate":odate,});
+//				alert("a");
+//				window.localStorage.setItem("oText",otext,)
+				
+					window.localStorage.setItem("uCon",ucon);
+					location.href="login.html"
+				
+			}
+		</script>
+	</body>
+</html>

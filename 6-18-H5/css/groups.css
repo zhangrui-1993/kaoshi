@@ -1,0 +1,12 @@
+header{padding: 1rem 0;text-align: center;font-family: "微软雅黑","宋体","times new roman";position: relative;}
+header .img-l{width: 1rem;position: absolute;left:1rem ;top: 1rem;}
+header .img-r{width: 1rem;position: absolute;right:1rem ;top: 1rem;}
+section .top{width: 100%;text-align: center;margin: 1.5rem 0 1rem;overflow: hidden;}
+section .top div{width: 50%;text-align: center;float: left;}
+section .touxiang{width: 28%;border-radius: 8rem;opacity: 0.8;} 
+.main{width: 100%;background: #F8F8FA;}
+.main .dl-box{width: 94%;padding: 3%;overflow: hidden;}
+.main .dl-box dl{width: 48%;overflow: hidden;float: left;background: #fff;box-shadow:1px 1px 2px #ccc ;margin-bottom: 1rem;}
+.main .dl-box dl img{width: 100%;}
+.main .dl-box dl dd{text-align: center;margin: 1.5rem 0;}
+.main dl:nth-child(2n){margin-left: 4%;}

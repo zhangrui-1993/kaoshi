@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientW/20+"px";
+		</script>
+	<body>
+		<header><img src="img/login.jpg"/></header>
+		<section>
+			<form >
+				<div class="u-t">USERNAME</div>
+				<input type="text" name="" id="u-text" value="" placeholder="请输入用户名" required/><!--andreapierce@invisionapp.com-->
+				<div class="p-t">PASSWORD</div>
+				<div class="p-b">
+					<input type="password" id="u-password" value="" placeholder="请输入密码" required/><div class="p-l">Forgot Password</div>
+				</div>
+				<input type="submit" id="u-submit" value="Sign In"/>
+			</form>
+		</section>
+		<footer><span class="f-l">DON’T HAVE AN ACCOUNT?</span>&nbsp;<span class="f-r">SIGN UP</span></footer>		
+	</body>
+	<script type="text/javascript">
+//		document.ontouchmove=function(e){
+//			location.href="create.html"
+//		}
+var submit=document.getElementById("u-submit");
+	/*	var a=window.localStorage.getItem("uCon");
+		var con=JSON.parse(a);
+		
+		var tex=document.getElementById("u-text").value;
+		var pas=document.getElementById("u-password").value;*/
+		submit.onclick=function(e){
+			var a=window.localStorage.getItem("uCon");
+			var con=JSON.parse(a);
+			var submit=document.getElementById("u-submit");
+			var tex=document.getElementById("u-text").value;
+			var pas=document.getElementById("u-password").value;
+//			alert(tex)
+			if(tex==con.oText){
+				if(pas==con.oPassword){alert("恭喜你登录成功")}
+				else{alert("密码不正确")}
+				
+			}
+			else{
+				alert("用户名不正确")
+			}
+		}
+		console.log(a);
+	</script>
+</html>

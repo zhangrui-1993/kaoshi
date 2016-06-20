@@ -1,0 +1,14 @@
+header{padding: 1rem 0;text-align: center;font-family: "微软雅黑","宋体","times new roman";position: relative;}
+header .img-l{width: 1rem;position: absolute;left:1rem ;}
+section .touxiang-box{width: 100%;text-align: center;margin-top: -2%;}
+section .touxiang{width: 28%;border-radius: 8rem;opacity: 0.8;} 
+.tianjia{width:2rem;height:2rem;font-size:1.8rem;position: relative;background: #4FD2C2;color: #fff;border-radius: 1rem;left: 58%;top:2rem;z-index: 2;opacity: 0.9;}
+section form{padding: 2rem;font-size: 0.7rem;}
+section form div{color: #A6A5A8;font-family: "微软雅黑","宋体","times new roman";padding-top: 1.4rem;}
+section form input{border: none;width: 100%;color: #000000;padding:0.8rem 0;border-bottom: 1px solid #F4F4F4;}
+.p-b{position: relative;}
+.p-l{position:absolute;right:0;top: 1rem;}
+#u-submit{background: #4FD2C2;color: #Fff;margin: 2.5rem 0 0;}
+footer{text-align: center;font-family: "微软雅黑","宋体","times new roman";font-size: 0.7rem;}
+footer .f-l{color: #A6A5A8;}
+footer .f-r{color: #79787D;}

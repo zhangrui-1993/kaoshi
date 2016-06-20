@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Create</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/create.css"/>
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientW/20+"px";
+		</script>
+	<body>
+		<header>
+			<img src="img/guanbi.jpg" class="img-l"/>
+			<div class="title">Add New</div>
+			<img src="img/duihao.jpg" class="img-r"/>
+		</header>
+		<section>
+			<div class="top">
+				<div class="title">TITLE<div class="img"><img src="img/Avatar-s.jpg"/></div></div>
+				<input type="text" value="Meeting with Janet" />
+				<div class="des">DESCRIPTION</div>
+				<input type="text" value="Go over feedback from the client" />
+			</div>
+			<div class="main">
+				<div class="DATE">DATE</div>
+				<input type="date" value="DATE" />
+				<div class="m-l">
+					<div class="from">FROM</div>
+					<input type="time" value="8:00am" />
+				</div>
+				<div class="m-r">
+					<div class="to">TO</div>
+					<input type="time" value="10:00am" />
+				</div>
+				<div class="loc">LOCATION</div>
+				<input type="text" value="Starbucks" />
+				<div class="not">NOTIFY</div>
+				<div class="n-b"><input type="text" value="20 minutes" />
+					<select>
+						<option value="Email" >Email</option><option value="Tel">Tel</option>
+					</select>
+				</div>
+				<div class="lab">LABEL</div>
+				<div class="l-b">
+					<input type="text" value="Teal" />
+					<div class="l-b-r"></div>
+				</div>
+			</div>
+		</section>
+		<footer></footer>		
+	</body>
+	<script type="text/javascript">
+		document.ontouchmove=function(e){
+			location.href="groups.html"
+		}
+	</script>
+</html>

@@ -1,0 +1,23 @@
+header{padding: 1rem 0;text-align: center;font-family: "微软雅黑","宋体","times new roman";position: relative;}
+header .img-l{width: 1rem;position: absolute;left:1rem ;}
+section .touxiang-box{width: 100%;text-align: center;margin-top: -2%;}
+section .touxiang{width: 28%;border-radius: 8rem;opacity: 0.8;} 
+.tianjia{width:2rem;height:2rem;font-size:1.8rem;position: relative;background: #4FD2C2;color: #fff;border-radius: 1rem;left: 58%;top:2rem;z-index: 2;opacity: 0.9;}
+section form{padding: 2rem;font-size: 0.7rem;}
+section form div{color: #A6A5A8;font-family: "微软雅黑","宋体","times new roman";padding-top: 1.4rem;}
+section form input{border: none;width: 100%;color: #000000;padding:0.8rem 0;border-bottom: 1px solid #F4F4F4;}
+.p-b{position: relative;}
+.p-l{position:absolute;right:0;top: 1rem;}
+.gender{border-bottom: 1px solid #F4F4F4;overflow: hidden;padding-bottom: 0.8rem;}
+.gender .g-l{float: left;width: 20%;padding: 0;}
+.gender .g-r{float: right;width: 50%;padding: 0;}
+.gender input{display: inline-block;width: 15%;border: 1px solid #ccc;background: #50d2c2;}
+.gender span{color: #000000;padding-right: 10%;}
+.not {}
+.not .n-l{width: 20%;float: left;padding: 0;}
+.not .n-r{width: 20%;float: right;width:2rem;height: 1rem;padding: 0 5% 0 0;position: relative;}
+.not #u-submit{padding: 0;background: #ccc;border-radius: 1rem;}
+.circle{width: 1.5rem;height:1.5rem;padding:0;position: absolute;background: #50d2c2;border-radius:2rem ;top:-0.25rem;left: -0.5rem;}
+footer{text-align: center;font-family: "微软雅黑","宋体","times new roman";font-size: 0.7rem;}
+footer .f-l{color: #A6A5A8;}
+footer .f-r{color: #79787D;}
